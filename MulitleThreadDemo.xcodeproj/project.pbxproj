@@ -15,6 +15,14 @@
 		5E52788F205B991800967C93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E52788E205B991800967C93 /* main.m */; };
 		5E527899205B991800967C93 /* MulitleThreadDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E527898205B991800967C93 /* MulitleThreadDemoTests.m */; };
 		5E5278A4205B991800967C93 /* MulitleThreadDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5278A3205B991800967C93 /* MulitleThreadDemoUITests.m */; };
+		5E5278B5205B9F1600967C93 /* NTThreadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5278B3205B9F1600967C93 /* NTThreadVC.m */; };
+		5E5278B6205B9F1600967C93 /* NTThreadVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E5278B4205B9F1600967C93 /* NTThreadVC.xib */; };
+		5E5278BB205BA69000967C93 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5278B9205BA69000967C93 /* GCDViewController.m */; };
+		5E5278BC205BA69000967C93 /* GCDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E5278BA205BA69000967C93 /* GCDViewController.xib */; };
+		5E58DA11205FA7A0000C2358 /* SingleIntanceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E58DA10205FA7A0000C2358 /* SingleIntanceTest.m */; };
+		5E58DA16205FCD7A000C2358 /* NSOperationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E58DA14205FCD7A000C2358 /* NSOperationVC.m */; };
+		5E58DA17205FCD7A000C2358 /* NSOperationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E58DA15205FCD7A000C2358 /* NSOperationVC.xib */; };
+		5E58DA1A205FD94D000C2358 /* AnimationNSoperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E58DA19205FD94D000C2358 /* AnimationNSoperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,19 @@
 		5E52789F205B991800967C93 /* MulitleThreadDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MulitleThreadDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5278A3205B991800967C93 /* MulitleThreadDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MulitleThreadDemoUITests.m; sourceTree = "<group>"; };
 		5E5278A5205B991800967C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E5278B2205B9F1600967C93 /* NTThreadVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTThreadVC.h; sourceTree = "<group>"; };
+		5E5278B3205B9F1600967C93 /* NTThreadVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTThreadVC.m; sourceTree = "<group>"; };
+		5E5278B4205B9F1600967C93 /* NTThreadVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NTThreadVC.xib; sourceTree = "<group>"; };
+		5E5278B8205BA69000967C93 /* GCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		5E5278B9205BA69000967C93 /* GCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
+		5E5278BA205BA69000967C93 /* GCDViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GCDViewController.xib; sourceTree = "<group>"; };
+		5E58DA0F205FA7A0000C2358 /* SingleIntanceTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleIntanceTest.h; sourceTree = "<group>"; };
+		5E58DA10205FA7A0000C2358 /* SingleIntanceTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleIntanceTest.m; sourceTree = "<group>"; };
+		5E58DA13205FCD7A000C2358 /* NSOperationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSOperationVC.h; sourceTree = "<group>"; };
+		5E58DA14205FCD7A000C2358 /* NSOperationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationVC.m; sourceTree = "<group>"; };
+		5E58DA15205FCD7A000C2358 /* NSOperationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NSOperationVC.xib; sourceTree = "<group>"; };
+		5E58DA18205FD94D000C2358 /* AnimationNSoperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationNSoperation.h; sourceTree = "<group>"; };
+		5E58DA19205FD94D000C2358 /* AnimationNSoperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationNSoperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +122,9 @@
 		5E52787E205B991700967C93 /* MulitleThreadDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5E58DA12205FBD20000C2358 /* NSOperation */,
+				5E5278B7205BA67000967C93 /* GCD */,
+				5E5278B1205B9A5400967C93 /* NSThread */,
 				5E52787F205B991700967C93 /* AppDelegate.h */,
 				5E527880205B991700967C93 /* AppDelegate.m */,
 				5E527882205B991700967C93 /* ViewController.h */,
@@ -130,6 +154,40 @@
 				5E5278A5205B991800967C93 /* Info.plist */,
 			);
 			path = MulitleThreadDemoUITests;
+			sourceTree = "<group>";
+		};
+		5E5278B1205B9A5400967C93 /* NSThread */ = {
+			isa = PBXGroup;
+			children = (
+				5E5278B2205B9F1600967C93 /* NTThreadVC.h */,
+				5E5278B3205B9F1600967C93 /* NTThreadVC.m */,
+				5E5278B4205B9F1600967C93 /* NTThreadVC.xib */,
+			);
+			path = NSThread;
+			sourceTree = "<group>";
+		};
+		5E5278B7205BA67000967C93 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				5E5278B8205BA69000967C93 /* GCDViewController.h */,
+				5E5278B9205BA69000967C93 /* GCDViewController.m */,
+				5E5278BA205BA69000967C93 /* GCDViewController.xib */,
+				5E58DA0F205FA7A0000C2358 /* SingleIntanceTest.h */,
+				5E58DA10205FA7A0000C2358 /* SingleIntanceTest.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		5E58DA12205FBD20000C2358 /* NSOperation */ = {
+			isa = PBXGroup;
+			children = (
+				5E58DA13205FCD7A000C2358 /* NSOperationVC.h */,
+				5E58DA14205FCD7A000C2358 /* NSOperationVC.m */,
+				5E58DA15205FCD7A000C2358 /* NSOperationVC.xib */,
+				5E58DA18205FD94D000C2358 /* AnimationNSoperation.h */,
+				5E58DA19205FD94D000C2358 /* AnimationNSoperation.m */,
+			);
+			path = NSOperation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +297,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E52788C205B991700967C93 /* LaunchScreen.storyboard in Resources */,
+				5E58DA17205FCD7A000C2358 /* NSOperationVC.xib in Resources */,
 				5E527889205B991700967C93 /* Assets.xcassets in Resources */,
+				5E5278B6205B9F1600967C93 /* NTThreadVC.xib in Resources */,
 				5E527887205B991700967C93 /* Main.storyboard in Resources */,
+				5E5278BC205BA69000967C93 /* GCDViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +328,11 @@
 			files = (
 				5E527884205B991700967C93 /* ViewController.m in Sources */,
 				5E52788F205B991800967C93 /* main.m in Sources */,
+				5E58DA11205FA7A0000C2358 /* SingleIntanceTest.m in Sources */,
+				5E58DA1A205FD94D000C2358 /* AnimationNSoperation.m in Sources */,
+				5E5278B5205B9F1600967C93 /* NTThreadVC.m in Sources */,
+				5E58DA16205FCD7A000C2358 /* NSOperationVC.m in Sources */,
+				5E5278BB205BA69000967C93 /* GCDViewController.m in Sources */,
 				5E527881205B991700967C93 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +497,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CEE6MVDZRM;
 				INFOPLIST_FILE = MulitleThreadDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.guangshuo.zhibuoguangshuo.MulitleThreadDemo;
@@ -444,6 +511,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CEE6MVDZRM;
 				INFOPLIST_FILE = MulitleThreadDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.guangshuo.zhibuoguangshuo.MulitleThreadDemo;
